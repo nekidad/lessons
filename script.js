@@ -31,7 +31,8 @@ const isChecked = false,
 
 console.log(isChecked || !isClose); */
 "use strict";
-const numberOfFilm = +prompt('Сколько фильмов вы уже посмотрели?', '');
+/* 012 */
+/* const numberOfFilm = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
 const personalMovieDB = {
     count: numberOfFilm,
@@ -48,4 +49,25 @@ const a = prompt('Один из последних просмотренных ф
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
-console.log(personalMovieDB);
+console.log(personalMovieDB); */
+
+/* 013 */
+if (4 == 9) {
+    console.log("OK!");
+}   else {
+    console.log("Error");
+}
+
+const num = 50; 
+
+if (num < 49) {
+    console.log("Error");
+}   else if (num > 100) {
+    console.log('Много'); 
+}   else {
+    console.log("OK!");
+}
+
+
+
+
