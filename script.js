@@ -15,7 +15,7 @@ answers[2] = prompt('Вам есть 18 лет?', 'Yes');
 
 console.log(answers); */
 /* const category = 'toys';
-console.log(`https://someurl.com/${category}/5`);
+/* console.log(`https://someurl.com/${category}/5`);
 
 const user = "Nikita";
 
@@ -30,7 +30,7 @@ const isChecked = false,
       isClose = false;
 
 console.log(isChecked || !isClose); */
-"use strict";
+/* "use strict";
 /* 012 */
 /* const numberOfFilm = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
@@ -49,10 +49,10 @@ const a = prompt('Один из последних просмотренных ф
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
-console.log(personalMovieDB); */
+console.log(personalMovieDB); */ 
 
 /* 013 */
-if (4 == 9) {
+/* if (4 == 9) {
     console.log("OK!");
 }   else {
     console.log("Error");
@@ -65,9 +65,109 @@ if (num < 49) {
 }   else if (num > 100) {
     console.log('Много'); 
 }   else {
-    console.log("OK!");
+    console.log("OK!"); */
+/* } */
+
+
+/* 014 */
+/* let num = 50; */
+
+/* while (num <= 55) {
+    console.log(num);
+    num++;
+} */
+/* do {
+    console.log(num);
+    num++;
+}
+while (num < 55); */
+
+/* for (let i = 1; i < 8; i++) {
+    console.log(num);
+    num++;
 }
 
+for (let i = 1; i < 10; i++) {
+    if (i === 6) {
+        /* break; */
+       /*  continue;
+    }
+    console.log(i);
+} 
+/* 015 */
 
+/* 016 */
 
+"use strict";
 
+let num = 20;
+
+function showFirstMessage(text) {
+    console.log(text);
+    num = 10;
+}
+
+showFirstMessage("Hello World!");
+console.log(num);
+
+function calc(a, b) {
+    return (a + b);
+}
+
+console.log(calc(7, 8));
+console.log(calc(50, 8));
+console.log(calc(33, 8));
+
+function ret() {
+    let num = 50;
+
+    //
+
+    return num;
+
+}
+const anotherNum = ret();
+console.log(anotherNum);
+
+const logger = function() {
+    console.log("Hello")
+};
+
+logger();
+
+const calc = (a, b) => { return a + b };
+
+const calc = (a, b) => {
+    console.log('1');
+    return a + b;
+};
+/* 017 */
+
+const str = "test";
+const arr = [1, 2, 4];
+
+console.log(arr.length);
+*
+const str = "test";
+
+console.log(str[3]);
+*
+const str = "tESt";
+
+console.log(str.toUpperCase());
+*
+const fruit = "Some fruit";
+
+console.log(fruit.indexOf("i"));
+*
+const logg = "Hello world";
+
+console.log(logg.slice(0, 6));
+
+const num = 12.2;
+console.log(Math.round(num));
+
+const test = "12.2px";
+
+/* console.log(parseInt(test)); */
+console.log(parseFloat(test));
