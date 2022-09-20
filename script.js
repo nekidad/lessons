@@ -171,3 +171,49 @@ const test = "12.2px";
 
 /* console.log(parseInt(test)); */
 console.log(parseFloat(test));
+
+"use strict";
+
+function first() {
+    // Do something
+
+}
+function learnJS(lang, callback) {
+    console.log(`Я учу: ${lang}`);
+    callback();
+}
+
+function done() {
+    console.log('Я прошел этот урок!');
+}
+
+learnJS('JavaScript', done);
+
+"use strict";
+
+const options = {
+    name: 'test',
+    width: 1024,
+    height: 1024,
+    colors: {
+        border: 'black',
+        bg: 'red'
+    }
+
+};
+/* console.log(options.name);
+
+delete options.name;
+
+console.log(options); */
+
+for (let key in options) {
+    if (typeof(options[key]) === 'object') {
+        for (let i in options[key]) {
+            console.log(`Свойство ${i} имеет значение ${options[key][i]}`);
+        }   
+    } else {
+        console.log(`Свойство ${key} имеет значение ${options[key]}`);
+    }
+    
+}
